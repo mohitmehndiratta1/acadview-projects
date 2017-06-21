@@ -1,0 +1,29 @@
+#input
+First_name=raw_input('First Name')
+Last_name=raw_input('Last Name')
+gender=raw_input('gender')
+mobile_no=raw_input('mobile')
+Email=raw_input('Email')
+amount=raw_input('ammount')
+amount=int(amount)
+
+#output
+print'to ' + Email
+print'mobile' + mobile_no
+
+#saltuation
+if (gender == 'male'):
+    salutation = "Mr."
+else :
+    salutation = "Ms."
+print'Hi' + salutation +First_name +Last_name
+
+#amount cal
+if (amount == 2499):
+    print('welcome to acadView internship program! we have succesfully recived the payment of ' , amount)
+if (amount<2499):
+    amount= 2499 -amount
+    print('you hve remaining balance of rs',amount,'kindly pay the rest to enroll')
+
+
+
