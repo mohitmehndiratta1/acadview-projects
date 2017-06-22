@@ -1,0 +1,7 @@
+number=raw_input('enter a numner')
+number=int(number)
+
+    else(number%4 == 0):
+        print('prince wins')
+    else:
+        print('shubham wins')

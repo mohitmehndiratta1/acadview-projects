@@ -1,0 +1,3 @@
+string = raw_input('enter string')
+
+if str.index(0) == str.index(1):

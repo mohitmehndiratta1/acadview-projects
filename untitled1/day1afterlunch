@@ -1,0 +1,6 @@
+First_name=raw_input('Last Name')
+Last_name=raw_input('Last Name')
+gender=raw_input('gender')
+mobile_no=raw_input('Mobile no')
+Email=raw_input('Email')
+amount=raw_input('ammount')
